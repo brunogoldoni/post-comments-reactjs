@@ -3,7 +3,7 @@ import React from 'react';
 import Post from './Post';
 import Comment from './Comment';
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
       <div>
@@ -15,3 +15,6 @@ export default class App extends React.Component {
     );
   }
 }
+
+
+export default App;
